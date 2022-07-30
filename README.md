@@ -7,17 +7,15 @@ Final Project of the Robotic Software Engineering Nanodegree
 
 git clone https://github.com/markaajan/RSE5_HSR.git
 
-cd RSE-5_HomeServiceRobot/
-
-cd RSE-5_HomeServiceRobot/catkin_ws
+cd RSE5_HSR/catkin_ws
 
 catkin_make
 
-echo "source /path/to/RSE-5_HomeServiceRobot/catkin_ws/devel/setup.bash" >> ~/.bashrc
+echo "source /path/to/RSE5_HSR/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 bash
 
-./path/to/RSE-5_HomeServiceRobot/catkin_ws/src/scripts/home_service.sh
+./path/to/RSE5_HSR/catkin_ws/src/scripts/home_service.sh
 
 **Packages Used**
 
